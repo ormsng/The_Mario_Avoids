@@ -4,4 +4,4 @@ Obstacles avoiding game.
 
 <h2>Gameplay</h2>
 
-![gameplay](https://user-images.githubusercontent.com/57441511/205062043-1dbdbe73-abe5-4888-b898-af8b69d26d60.gif)
+![game_play](https://user-images.githubusercontent.com/57441511/205062801-df8671a9-5fc9-4f76-8cac-8af8a34b4e90.gif)
