@@ -69,19 +69,12 @@ public class MainActivity extends AppCompatActivity {
             game_IMG_columns[random_number][enemy_height-1].setVisibility(View.VISIBLE);
             enemy_height--;
         } else {
-            if(curr_hero_x == random_number){
+            if(curr_hero_x == random_number && lives > 0){
                 vibrate(1000);
                 lives--;
-                Toast.makeText(getApplicationContext(),"Collision",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"COLLISION",Toast.LENGTH_LONG).show();
                 game_IMG_hearts[lives].setVisibility(View.INVISIBLE);
-                if(lives == 0){
-                    timer.cancel();
-                    vibrate(2000);
-                    Toast.makeText(getApplicationContext(),"You lost :(",Toast.LENGTH_LONG).show();
-                    finish();
-                }
             }
-
 
             game_IMG_columns[random_number][0].setVisibility(View.INVISIBLE);
             random_number = (int) Math.floor(Math.random()*3);
