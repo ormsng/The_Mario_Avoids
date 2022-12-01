@@ -182,7 +182,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="83dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:src="@drawable/ic_mario"
                 android:visibility="invisible" />
